@@ -4,8 +4,8 @@ import { Col, Button } from 'reactstrap';
 
 export default (props) => {
   return(
-    <Col xs={ props.size } className="text-center bg-primary ">
-      <Button color="link" className="text-light"><i className={props.action} ></i></Button>
+    <Col xs={ props.size } className="text-center bg-danger ">
+      <Button color="link" onClick={props.handler} className="text-light"><i className={props.action} ></i></Button>
     </Col>
   );
 }
