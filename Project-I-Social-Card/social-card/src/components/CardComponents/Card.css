@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+.flex {
+  display:flex;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  padding: 10px;
+}
+
+.card a{
+  text-decoration: none;
+  color: black;
+}
+
+.text-muted{
+  color: grey;
+}
+.card-content {
+  margin-left: 80px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.card-banner {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+  padding: 10px;
+}
